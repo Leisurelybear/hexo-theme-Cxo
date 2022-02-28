@@ -4,28 +4,28 @@ language: en
 # avatar
 avatar: img/assets/cat.png
 # author
-author: longlongyu
+author: LeisurelyBear
 # signature
 signature: for me
 # friends
 friends:
-  friendA: //github.com/Longlongyu
+  friendA: //github.com/
   friendB: //github.com/
   friendC: //github.com/
 # SNS
 social:
   email: 
   github: //github.com/
-  weibo: //www.weibo.com
-  facebook: //www.facebook.com
-  twitter: //twitter.com
-  rss: /atom.xml
+#  weibo: //www.weibo.com
+#  facebook: //www.facebook.com
+#  twitter: //twitter.com
+#  rss: /atom.xml
 
 # —————————— Site —————————— #
 # title of the site
-SEO_title: Mr.Long's Blog
+SEO_title: LeisurelyBear's Blog
 # main title
-main_title: Mr.Long's Blog
+main_title: LeisurelyBear's Blog
 # subtitle
 subtitle: Welcome to my Blog!
 # site haeder image
@@ -52,8 +52,6 @@ count:
   # enable analytics
   # true or flase
   busuanzi: true
-  # baidu code
-  baidu: 
 # Time
 # you can modify the timestamp format.
 date_format: YYYY-MM-DD
@@ -65,7 +63,7 @@ display_updated: false
 copyright:
   enable: true
   # https://creativecommons.org/
-  license: All articles in this blog are licensed under <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/3.0">CC BY-NC-SA 3.0</a> unless stating additionally.
+  license: Copyright © 2019-2022 LeisurelyBear All rights reserved.
 # comment
 comment:
   # Livere  site: https://livere.com/
@@ -88,6 +86,7 @@ menu:
   About: /about/
   Archives: /archives/
   Tags: /tags/
+  Friends: /friends/
 # stylesheets loaded in the <head>
 stylesheets:
 - /css/style.css?v=2018.7.9
