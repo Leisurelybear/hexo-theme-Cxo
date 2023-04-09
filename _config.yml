@@ -2,34 +2,33 @@
 # language
 language: en
 # avatar
-avatar: img/assets/cat.png
+avatar: img/assets/favicon_32x32_bear.png
 # author
-author: LeisurelyBear
+author: Lebear
 # signature
-signature: for me
+signature: If you don't like the world, create one instead of complaining.
 # friends
-friends:
-  friendA: //github.com/
-  friendB: //github.com/
-  friendC: //github.com/
+#friends:
+#  friendB: //github.com/
+#  friendC: //github.com/
 # SNS
 social:
-  email: 
-  github: //github.com/
-#  weibo: //www.weibo.com
-#  facebook: //www.facebook.com
-#  twitter: //twitter.com
-#  rss: /atom.xml
+  email: //lebear.top@gmail.com
+  github: //github.com/leisurelybear
+  #weibo: //www.weibo.com
+  #facebook: //www.facebook.com
+  #twitter: //twitter.com
+  #rss: /atom.xml
 
 # —————————— Site —————————— #
 # title of the site
-SEO_title: LeisurelyBear's Blog
+SEO_title: LeisurelyBear Blog
 # main title
 main_title: LeisurelyBear's Blog
 # subtitle
-subtitle: Welcome to my Blog!
+subtitle: Love Life, Follow Technology. 
 # site haeder image
-site_header_image: '/img/intro/index-bg.png'
+site_header_image: '/img/intro/index-bg.jpg'
 # post haeder image
 post_header_image:
 # about image
@@ -42,11 +41,11 @@ favicon: /img/assets/favicon.ico
 # truncate length of abstracts in index page (the default is 300, there will be no abstruct if you input 0)
 truncate_length: 
 # intro height (the default is 70 percents of the screen)
-intro_height: 70
+intro_height: 80
 # enable toc
 toc: true
 # word count & reading time
-reading_info: false
+reading_info: true
 # access statistics
 count:
   # enable analytics
@@ -74,10 +73,10 @@ comment:
   changyan_appid: 
   changyan_conf: 
   # Gitment  site: https://github.com/imsun/gitment/
-  gitment_owner:
-  gitment_repo:
-  gitment_client_id:
-  gitment_client_secret:
+  gitment_owner: Leisurelybear
+  gitment_repo: blog.lebear.top-comment
+  gitment_client_id: 7b32efbea888ff18bf71
+  gitment_client_secret: d6d9022e73dfc0e9e55dc8ad8604a5aa73447595
 
 # —————————— Others —————————— #
 # main menu navigation
@@ -91,6 +90,8 @@ menu:
 stylesheets:
 - /css/style.css?v=2018.7.9
 - /css/animation.css?v=2018.7.9
+- /css/szgotop.css
 # scripts loaded in the end of the body
 scripts:
 - /js/main.js?v=2018.7.9
+- /js/szgotop.js
